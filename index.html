@@ -1,0 +1,1352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shreeji Agro Enterprises | Grain Merchant | Mandi Bhav & GST Suite</title>
+  <meta name="description" content="Shreeji Agro Enterprises - Trusted Grain Merchant for Maize, Paddy, Wheat, Soybean, and Mustard. Behtar Daam, Vishwasniya Vyapar, Aapke Saath Hamesha. Live Mandi Bhav & GST Calculator.">
+  <meta name="keywords" content="Shreeji Agro Enterprises, Grain Merchant, Mandi Bhav, Maize, Paddy, Wheat, Soybean, Mustard, Mandi GST Calculator, Krishi Upaj Mandi">
+  <meta name="author" content="Shreeji Agro Enterprises">
+  
+  <!-- Favicon / Brand Icon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230f4c3a'/><path d='M30 65 C30 35 65 30 70 30 C70 65 40 70 30 65 Z' fill='%23fbbf24'/><path d='M35 70 C35 45 60 40 65 40' stroke='%23ffffff' stroke-width='4' fill='none'/></svg>">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- ==========================================
+       DIVINE TOPBAR & MANDI TIMINGS
+       ========================================== -->
+  <div class="divine-topbar">
+    <div class="container divine-content">
+      <div class="divine-blessing">
+        <span class="divine-symbol">🕉️</span>
+        <span>|| श्री गणेशाय नमः ||</span>
+        <span class="divine-badge">🌾 Trusted Grain Merchant</span>
+      </div>
+      <div class="topbar-contact">
+        <a href="tel:+919876543210">
+          <span>📞</span> +91 98765 43210
+        </a>
+        <a href="#mandi-bhav">
+          <span>⏰</span> Mandi Trading: 8:00 AM - 7:00 PM
+        </a>
+        <a href="#contact">
+          <span>📍</span> Krishi Upaj Mandi Gate No. 2
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================
+       STICKY MAIN HEADER & NAVIGATION
+       ========================================== -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <!-- Brand Logo & Identity from Poster -->
+      <a href="#home" class="brand-identity">
+        <div class="brand-emblem" title="Shreeji Agro Enterprises">
+          <!-- Agricultural Leaf & Divine Motif SVG -->
+          <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M22 68C22 36 62 28 78 28C78 64 42 76 22 68Z" fill="#fbbf24"/>
+            <path d="M26 68C36 46 60 36 78 28" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+            <circle cx="78" cy="28" r="6" fill="#f59e0b"/>
+            <!-- Lord Krishna Peacock Feather Touch -->
+            <path d="M50 20C55 12 65 14 62 24C60 28 52 24 50 20Z" fill="#22c55e"/>
+            <circle cx="56" cy="19" r="2.5" fill="#38bdf8"/>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-title">Shreeji <span>Agro</span></span>
+          <span class="brand-subtitle">Grain Merchant</span>
+        </div>
+      </a>
+
+      <!-- Desktop & Mobile Nav Menu -->
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link active" data-i18n="navHome">Home</a></li>
+        <li><a href="#about" class="nav-link" data-i18n="navAbout">About Us</a></li>
+        <li><a href="#commodities" class="nav-link" data-i18n="navCommodities">Commodities</a></li>
+        <li><a href="#mandi-bhav" class="nav-link" data-i18n="navRates">Mandi Bhav</a></li>
+        <li><a href="#gst-suite" class="nav-link" data-i18n="navGst">GST Suite</a></li>
+        <li><a href="#contact" class="nav-link" data-i18n="navContact">Contact Us</a></li>
+      </ul>
+
+      <!-- Action & Lang Switch -->
+      <div class="nav-actions">
+        <!-- Language Switcher -->
+        <div class="lang-switch" title="Change Language">
+          <button class="lang-btn active" data-lang="en">EN</button>
+          <button class="lang-btn" data-lang="hi">हिंदी</button>
+        </div>
+
+        <a href="#gst-suite" class="btn btn-gold">
+          <span>⚡</span> GST Tool
+        </a>
+
+        <button class="mobile-nav-toggle" aria-label="Toggle Navigation Menu">
+          ☰
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================
+       LIVE MANDI COMMODITY RATES TICKER
+       ========================================== -->
+  <div class="rates-ticker-bar" id="ticker-bar">
+    <div class="ticker-label">
+      <span class="pulse-dot"></span> Live Mandi Bhav
+    </div>
+    <div class="ticker-track-wrap">
+      <div class="ticker-track">
+        <div class="ticker-item">
+          <span class="crop-name">🌽 Maize (मक्का):</span>
+          <span class="rate">₹2,180 - ₹2,290 / Qtl</span>
+          <span class="trend up">▲ +₹35</span>
+        </div>
+        <div class="ticker-item">
+          <span class="crop-name">🌾 Wheat (गेहूं):</span>
+          <span class="rate">₹2,440 - ₹2,580 / Qtl</span>
+          <span class="trend up">▲ +₹20</span>
+        </div>
+        <div class="ticker-item">
+          <span class="crop-name">🌾 Paddy (धान - 1509):</span>
+          <span class="rate">₹3,420 - ₹3,680 / Qtl</span>
+          <span class="trend up">▲ +₹60</span>
+        </div>
+        <div class="ticker-item">
+          <span class="crop-name">🌱 Soybean (सोयाबीन):</span>
+          <span class="rate">₹4,680 - ₹4,850 / Qtl</span>
+          <span class="trend down">▼ -₹15</span>
+        </div>
+        <div class="ticker-item">
+          <span class="crop-name">🌼 Mustard (सरसों 42% Oil):</span>
+          <span class="rate">₹5,450 - ₹5,720 / Qtl</span>
+          <span class="trend up">▲ +₹40</span>
+        </div>
+        <div class="ticker-item">
+          <span class="crop-name">🟤 Chana (चना):</span>
+          <span class="rate">₹5,850 - ₹6,120 / Qtl</span>
+          <span class="trend up">▲ +₹25</span>
+        </div>
+        <!-- Duplicated for seamless loop -->
+        <div class="ticker-item">
+          <span class="crop-name">🌽 Maize (मक्का):</span>
+          <span class="rate">₹2,180 - ₹2,290 / Qtl</span>
+          <span class="trend up">▲ +₹35</span>
+        </div>
+        <div class="ticker-item">
+          <span class="crop-name">🌾 Wheat (गेहूं):</span>
+          <span class="rate">₹2,440 - ₹2,580 / Qtl</span>
+          <span class="trend up">▲ +₹20</span>
+        </div>
+        <div class="ticker-item">
+          <span class="crop-name">🌾 Paddy (धान):</span>
+          <span class="rate">₹2,250 - ₹2,380 / Qtl</span>
+          <span class="trend up">▲ +₹15</span>
+        </div>
+        <div class="ticker-item">
+          <span class="crop-name">🌱 Soybean (सोयाबीन):</span>
+          <span class="rate">₹4,680 - ₹4,850 / Qtl</span>
+          <span class="trend down">▼ -₹15</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================
+       HERO SECTION WITH 3D POSTER FRAME
+       ========================================== -->
+  <section class="hero-section" id="home">
+    <div class="hero-shape-overlay"></div>
+    <div class="container hero-grid">
+      <div class="hero-text-content reveal reveal-left">
+        <div class="hero-badge-pill">
+          <span>✨</span>
+          <span>श्री गणेशाय नमः • Shreeji Agro Enterprises</span>
+        </div>
+        <h1 class="hero-title" data-i18n="heroTitle">
+          Reliable Trade & <span class="highlight-gold">Best Market Rates</span> for Every Harvest
+        </h1>
+        <div class="hero-tagline-motto" data-i18n="heroSubtitle">
+          <span>Behtar Daam</span>
+          <span class="divider">|</span>
+          <span>Vishwasniya Vyapar</span>
+          <span class="divider">|</span>
+          <span class="highlight-green">Aapke Saath Hamesha</span>
+        </div>
+        <p class="hero-description" data-i18n="heroDesc">
+          Shreeji Agro Enterprises is your premier trusted grain merchant in the agricultural mandi network. We partner directly with dedicated farmers, millers, and food processing enterprises to ensure fair weighing, instant payments, and unmatched transparency.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#commodities" class="btn btn-gold">
+            <span>🌾</span> Explore Commodities
+          </a>
+          <a href="#gst-suite" class="btn btn-outline-light">
+            <span>📑</span> Mandi GST Billing Suite
+          </a>
+          <button class="btn btn-outline-gold btn-open-poster" style="color: #fef08a; border-color: #fef08a;">
+            <span>🖼️</span> View Poster
+          </button>
+        </div>
+
+        <!-- Metric Counters -->
+        <div class="hero-stat-row">
+          <div class="hero-stat">
+            <div class="stat-number"><span class="counter-val" data-target="25000">0</span>+</div>
+            <div class="stat-label">Quintals Traded Monthly</div>
+          </div>
+          <div class="hero-stat">
+            <div class="stat-number"><span class="counter-val" data-target="1500">0</span>+</div>
+            <div class="stat-label">Associated Farmers & Traders</div>
+          </div>
+          <div class="hero-stat">
+            <div class="stat-number">100<span>%</span></div>
+            <div class="stat-label">Transparent On-Time Settlement</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Poster Frame & Floating Badges -->
+      <div class="hero-card-display reveal reveal-right">
+        <div class="hero-floating-badge top-badge">
+          <div class="badge-icon-box green">⚖️</div>
+          <div>
+            <div style="font-size:0.75rem; color:#64748b; text-transform:uppercase;">Fair Weighing</div>
+            <div>Electronic Kanta Verified</div>
+          </div>
+        </div>
+
+        <div class="hero-poster-frame">
+          <img src="assets/images/poster.jpg" alt="Shreeji Agro Enterprises Official Poster" class="poster-preview-img btn-open-poster" title="Click to view full poster">
+          <div style="text-align: center; margin-top: 0.85rem;">
+            <button class="btn btn-primary btn-open-poster" style="width: 100%; font-size: 0.88rem; padding: 0.5rem 1rem;">
+              <span>🔍</span> Click to Expand Official Poster
+            </button>
+          </div>
+        </div>
+
+        <div class="hero-floating-badge bottom-badge">
+          <div class="badge-icon-box amber">⚡</div>
+          <div>
+            <div style="font-size:0.75rem; color:#64748b; text-transform:uppercase;">Quick Payment</div>
+            <div>Instant Cash / RTGS Payout</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Smooth Bottom Wave Divider -->
+    <div class="hero-bottom-curve">
+      <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M0,0 C150,90 350,-40 500,40 C650,120 900,10 1200,40 L1200,120 L0,120 Z"></path>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       4 CORE PILLARS FROM POSTER ICONS
+       ========================================== -->
+  <section class="section section-light" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-pretitle">The Shreeji Agro Commitment</span>
+        <h2 class="section-title">Built on Trust, Fairness & Transparency</h2>
+        <p class="section-subtitle">
+          Everything we do is guided by our respect for the farmer's toil and the trader's trust. Here are the 4 fundamental pillars highlighted in our business creed.
+        </p>
+      </div>
+
+      <div class="pillars-grid">
+        <!-- 1. Fair Commission -->
+        <div class="pillar-card reveal delay-1">
+          <div class="pillar-icon-box">🤝</div>
+          <h3 class="pillar-title">Fair Commission</h3>
+          <p class="pillar-desc">
+            No hidden cuts or unexpected deductions. We operate strictly on honest, pre-disclosed commission rates with transparent electronic slips.
+          </p>
+        </div>
+
+        <!-- 2. Transparent Dealings -->
+        <div class="pillar-card reveal delay-2">
+          <div class="pillar-icon-box">🛡️</div>
+          <h3 class="pillar-title">Transparent Dealings</h3>
+          <p class="pillar-desc">
+            State-of-the-art certified digital weighbridges and accurate moisture-testing meters. Clear accounting and instant receipt for every quintal.
+          </p>
+        </div>
+
+        <!-- 3. Timely Supply & Logistics -->
+        <div class="pillar-card reveal delay-3">
+          <div class="pillar-icon-box">🚚</div>
+          <h3 class="pillar-title">Timely Supply</h3>
+          <p class="pillar-desc">
+            Direct coordination with reliable freight fleets, ensuring rapid dispatch from mandi yards straight to processing mills, silos, and ports.
+          </p>
+        </div>
+
+        <!-- 4. Best Market Price -->
+        <div class="pillar-card reveal delay-4">
+          <div class="pillar-icon-box">📈</div>
+          <h3 class="pillar-title">Best Market Price</h3>
+          <p class="pillar-desc">
+            Deep ties with leading institutional buyers, oil mills, and poultry feed corporations enable us to secure the highest realizable mandi rates.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       FEATURED COMMODITIES SECTION (From Poster)
+       ========================================== -->
+  <section class="section section-accent" id="commodities">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-pretitle">Agricultural Commodities</span>
+        <h2 class="section-title">Premium Mandi Grains & Oilseeds</h2>
+        <p class="section-subtitle">
+          From golden maize to high-oil mustard, we trade the finest harvested produce with strict moisture and quality grading standards.
+        </p>
+      </div>
+
+      <div class="crops-grid">
+        <!-- Crop 1: Maize -->
+        <div class="crop-card reveal delay-1">
+          <div class="crop-img-wrap">
+            <img src="assets/images/maize.jpg" alt="Maize Corn Crop">
+            <span class="crop-tag-badge">Starch & Feed</span>
+            <span class="crop-hsn-badge">HSN: 1005</span>
+          </div>
+          <div class="crop-content">
+            <div class="crop-title-row">
+              <span class="crop-name-en">Maize</span>
+              <span class="crop-name-hi">मक्का</span>
+            </div>
+            <p class="crop-desc">
+              High-energy, uniform yellow grains tailored for poultry feed, ethanol plants, and corn starch industries with guaranteed moisture control.
+            </p>
+            <div class="crop-specs-list">
+              <div class="spec-row">
+                <span class="spec-label">Moisture:</span>
+                <span class="spec-value">12% - 14%</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-label">Current Rate:</span>
+                <span class="spec-value" style="color:#d97706;">₹2,180 - ₹2,290 / Qtl</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-label">GST Status:</span>
+                <span class="spec-value" style="color:#10b981;">0% Exempt (Loose)</span>
+              </div>
+            </div>
+            <div class="crop-card-footer">
+              <button class="btn btn-outline-gold btn-view-crop" data-crop-key="maize">
+                Specifications
+              </button>
+              <a href="https://wa.me/919876543210?text=Hello%20Shreeji%20Agro,%20I%20want%20to%20get%20rates%20for%20Maize%20(Makka)" target="_blank" class="btn btn-primary">
+                Get Quote
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Crop 2: Paddy -->
+        <div class="crop-card reveal delay-2">
+          <div class="crop-img-wrap">
+            <img src="assets/images/paddy.jpg" alt="Paddy Rice Dhan">
+            <span class="crop-tag-badge">Basmati & Hybrid</span>
+            <span class="crop-hsn-badge">HSN: 1006</span>
+          </div>
+          <div class="crop-content">
+            <div class="crop-title-row">
+              <span class="crop-name-en">Paddy (Rice)</span>
+              <span class="crop-name-hi">धान</span>
+            </div>
+            <p class="crop-desc">
+              Sourced from fertile paddy belts with optimal grain maturity. Excellent milling yield with minimal chalky or broken grains.
+            </p>
+            <div class="crop-specs-list">
+              <div class="spec-row">
+                <span class="spec-label">Head Rice Recovery:</span>
+                <span class="spec-value">66% - 68%</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-label">Current Rate:</span>
+                <span class="spec-value" style="color:#d97706;">₹2,250 - ₹3,680 / Qtl</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-label">GST Status:</span>
+                <span class="spec-value" style="color:#10b981;">0% Exempt (Mandi)</span>
+              </div>
+            </div>
+            <div class="crop-card-footer">
+              <button class="btn btn-outline-gold btn-view-crop" data-crop-key="paddy">
+                Specifications
+              </button>
+              <a href="https://wa.me/919876543210?text=Hello%20Shreeji%20Agro,%20I%20want%20to%20get%20rates%20for%20Paddy%20(Dhan)" target="_blank" class="btn btn-primary">
+                Get Quote
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Crop 3: Wheat -->
+        <div class="crop-card reveal delay-3">
+          <div class="crop-img-wrap">
+            <img src="assets/images/wheat.jpg" alt="Wheat Grain">
+            <span class="crop-tag-badge">Sharbati & Mill</span>
+            <span class="crop-hsn-badge">HSN: 1001</span>
+          </div>
+          <div class="crop-content">
+            <div class="crop-title-row">
+              <span class="crop-name-en">Wheat</span>
+              <span class="crop-name-hi">गेहूं</span>
+            </div>
+            <p class="crop-desc">
+              Clean, golden hard grains with high gluten and protein index. Ideal for premier flour millers, bakeries, and consumer chakki packaging.
+            </p>
+            <div class="crop-specs-list">
+              <div class="spec-row">
+                <span class="spec-label">Protein Content:</span>
+                <span class="spec-value">12.5% - 13.5%</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-label">Current Rate:</span>
+                <span class="spec-value" style="color:#d97706;">₹2,440 - ₹2,580 / Qtl</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-label">GST Status:</span>
+                <span class="spec-value" style="color:#10b981;">0% Exempt (Loose)</span>
+              </div>
+            </div>
+            <div class="crop-card-footer">
+              <button class="btn btn-outline-gold btn-view-crop" data-crop-key="wheat">
+                Specifications
+              </button>
+              <a href="https://wa.me/919876543210?text=Hello%20Shreeji%20Agro,%20I%20want%20to%20get%20rates%20for%20Wheat%20(Gehun)" target="_blank" class="btn btn-primary">
+                Get Quote
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Crop 4: Soybean -->
+        <div class="crop-card reveal delay-1">
+          <div class="crop-img-wrap">
+            <img src="assets/images/soybean.jpg" alt="Soybean Grain">
+            <span class="crop-tag-badge">High Oil Content</span>
+            <span class="crop-hsn-badge">HSN: 1201</span>
+          </div>
+          <div class="crop-content">
+            <div class="crop-title-row">
+              <span class="crop-name-en">Soybean</span>
+              <span class="crop-name-hi">सोयाबीन</span>
+            </div>
+            <p class="crop-desc">
+              Bold, clean, yellow organic soybeans for solvent extraction plants and feed mills. Low foreign impurity and high crude oil percentage.
+            </p>
+            <div class="crop-specs-list">
+              <div class="spec-row">
+                <span class="spec-label">Oil Content:</span>
+                <span class="spec-value">18.5% - 20.0%</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-label">Current Rate:</span>
+                <span class="spec-value" style="color:#d97706;">₹4,680 - ₹4,850 / Qtl</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-label">GST Status:</span>
+                <span class="spec-value" style="color:#10b981;">0% Exempt (Mandi)</span>
+              </div>
+            </div>
+            <div class="crop-card-footer">
+              <button class="btn btn-outline-gold btn-view-crop" data-crop-key="soybean">
+                Specifications
+              </button>
+              <a href="https://wa.me/919876543210?text=Hello%20Shreeji%20Agro,%20I%20want%20to%20get%20rates%20for%20Soybean" target="_blank" class="btn btn-primary">
+                Get Quote
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Crop 5: Mustard / Sarson -->
+        <div class="crop-card reveal delay-2">
+          <div class="crop-img-wrap">
+            <img src="assets/images/mustard.jpg" alt="Mustard Sarson Oilseeds">
+            <span class="crop-tag-badge">42% Oil Grade</span>
+            <span class="crop-hsn-badge">HSN: 1207</span>
+          </div>
+          <div class="crop-content">
+            <div class="crop-title-row">
+              <span class="crop-name-en">Mustard (Sarson)</span>
+              <span class="crop-name-hi">सरसों</span>
+            </div>
+            <p class="crop-desc">
+              Rich, pungent black mustard seeds for cold-pressed kachi ghani oil extraction. Checked on bench for moisture and maximum oil recovery.
+            </p>
+            <div class="crop-specs-list">
+              <div class="spec-row">
+                <span class="spec-label">Oil Percentage:</span>
+                <span class="spec-value">40% - 42.5%</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-label">Current Rate:</span>
+                <span class="spec-value" style="color:#d97706;">₹5,450 - ₹5,720 / Qtl</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-label">GST Status:</span>
+                <span class="spec-value" style="color:#10b981;">0% Exempt (Mandi)</span>
+              </div>
+            </div>
+            <div class="crop-card-footer">
+              <button class="btn btn-outline-gold btn-view-crop" data-crop-key="mustard">
+                Specifications
+              </button>
+              <a href="https://wa.me/919876543210?text=Hello%20Shreeji%20Agro,%20I%20want%20to%20get%20rates%20for%20Mustard%20(Sarson)" target="_blank" class="btn btn-primary">
+                Get Quote
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Extra: Pulses & Other Mandi Crops -->
+        <div class="crop-card reveal delay-3" style="background: linear-gradient(135deg, #092c1f, #0f4c3a); color:#ffffff;">
+          <div class="crop-content" style="justify-content: center; text-align: center; padding: 2.5rem 1.75rem;">
+            <div style="font-size: 3rem; margin-bottom: 1rem;">🌾 ➕</div>
+            <h3 style="color:#fbbf24; font-size:1.6rem; margin-bottom: 0.5rem;">Other Commodities</h3>
+            <p style="color:#d1fae5; font-size:0.95rem; margin-bottom: 1.5rem;">
+              We also facilitate wholesale trading for <strong>Gram (Chana)</strong>, <strong>Barley (Jau)</strong>, <strong>Bajra</strong>, <strong>Moong</strong>, and <strong>Urad</strong> with prompt mandi auctions.
+            </p>
+            <a href="https://wa.me/919876543210?text=Hello%20Shreeji%20Agro,%20I%20want%20to%20enquire%20about%20other%20crops%20and%20pulses" target="_blank" class="btn btn-gold" style="width: 100%;">
+              <span>💬</span> Enquire Other Crops
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       FARMER HONOR SLOGAN BANNER (From Poster)
+       ========================================== -->
+  <section class="farmer-honor-banner">
+    <div class="container honor-flex">
+      <div class="honor-left reveal reveal-left">
+        <span class="honor-badge">🌾 हमारा संकल्प • Our Motto</span>
+        <h2 class="honor-title" data-i18n="sloganBanner">
+          किसान की मेहनत, <span>हमारा सम्मान</span>
+        </h2>
+        <p class="honor-desc" data-i18n="sloganSub">
+          We honor every drop of sweat that goes into producing food for the nation. Shreeji Agro Enterprises guarantees prompt weighing, zero arbitrary cuts, and spot payment settlements directly into your bank or on-hand.
+        </p>
+      </div>
+      <div class="reveal reveal-right">
+        <a href="#contact" class="btn btn-gold" style="font-size: 1.05rem; padding: 0.85rem 1.8rem;">
+          <span>🤝</span> Sell Your Produce Today
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       LIVE MANDI BHAV BOARD (Interactive Rates)
+       ========================================== -->
+  <section class="section section-light" id="mandi-bhav">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-pretitle">Daily Market Intelligence</span>
+        <h2 class="section-title">Today's Live Mandi Bhav</h2>
+        <p class="section-subtitle">
+          Real-time indicative trading prices recorded across primary agricultural producing mandis. Updated daily at 11:30 AM and 4:30 PM.
+        </p>
+      </div>
+
+      <div class="rates-board-card reveal">
+        <div class="rates-filter-bar">
+          <div class="search-input-box">
+            <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+            <input type="text" id="mandi-search-input" class="form-control" placeholder="Search crop or variety...">
+          </div>
+
+          <div style="display:flex; gap:0.75rem; align-items:center;">
+            <select id="mandi-crop-filter" class="form-control" style="width: auto;">
+              <option value="all">All Commodities</option>
+              <option value="maize">Maize (मक्का)</option>
+              <option value="wheat">Wheat (गेहूं)</option>
+              <option value="paddy">Paddy (धान)</option>
+              <option value="soybean">Soybean (सोयाबीन)</option>
+              <option value="mustard">Mustard (सरसों)</option>
+              <option value="chana">Chana (चना)</option>
+            </select>
+            <span style="font-size:0.8rem; color:#64748b;">📅 Today: Live</span>
+          </div>
+        </div>
+
+        <div class="rates-table-wrap">
+          <table class="mandi-rates-table">
+            <thead>
+              <tr>
+                <th>Commodity / फसल</th>
+                <th>Variety / Grade</th>
+                <th>Min Rate (₹/Qtl)</th>
+                <th>Max Rate (₹/Qtl)</th>
+                <th>Modal Rate (₹/Qtl)</th>
+                <th>Trend</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr data-crop="maize">
+                <td><strong>🌽 Maize (मक्का)</strong></td>
+                <td>Yellow Hybrid (Dry 12%)</td>
+                <td>₹2,120</td>
+                <td>₹2,290</td>
+                <td><strong>₹2,220</strong></td>
+                <td><span class="trend-badge up">▲ +₹35</span></td>
+                <td><a href="https://wa.me/919876543210?text=Rate%20enquiry%20for%20Maize" target="_blank" class="btn btn-outline-gold" style="padding:0.25rem 0.6rem; font-size:0.78rem;">Trade</a></td>
+              </tr>
+              <tr data-crop="wheat">
+                <td><strong>🌾 Wheat (गेहूं)</strong></td>
+                <td>Mill Quality (Cleaned)</td>
+                <td>₹2,380</td>
+                <td>₹2,480</td>
+                <td><strong>₹2,440</strong></td>
+                <td><span class="trend-badge up">▲ +₹20</span></td>
+                <td><a href="https://wa.me/919876543210?text=Rate%20enquiry%20for%20Wheat" target="_blank" class="btn btn-outline-gold" style="padding:0.25rem 0.6rem; font-size:0.78rem;">Trade</a></td>
+              </tr>
+              <tr data-crop="wheat">
+                <td><strong>🌾 Wheat (गेहूं - शरबती)</strong></td>
+                <td>Sharbati Premium Gold</td>
+                <td>₹3,150</td>
+                <td>₹3,620</td>
+                <td><strong>₹3,380</strong></td>
+                <td><span class="trend-badge stable">● Firm</span></td>
+                <td><a href="https://wa.me/919876543210?text=Rate%20enquiry%20for%20Sharbati%20Wheat" target="_blank" class="btn btn-outline-gold" style="padding:0.25rem 0.6rem; font-size:0.78rem;">Trade</a></td>
+              </tr>
+              <tr data-crop="paddy">
+                <td><strong>🌾 Paddy (धान)</strong></td>
+                <td>Paddy Basmati 1509</td>
+                <td>₹3,350</td>
+                <td>₹3,680</td>
+                <td><strong>₹3,520</strong></td>
+                <td><span class="trend-badge up">▲ +₹60</span></td>
+                <td><a href="https://wa.me/919876543210?text=Rate%20enquiry%20for%20Paddy%201509" target="_blank" class="btn btn-outline-gold" style="padding:0.25rem 0.6rem; font-size:0.78rem;">Trade</a></td>
+              </tr>
+              <tr data-crop="paddy">
+                <td><strong>🌾 Paddy (धान - सामान्य)</strong></td>
+                <td>PR-106 / Common Grain</td>
+                <td>₹2,240</td>
+                <td>₹2,380</td>
+                <td><strong>₹2,310</strong></td>
+                <td><span class="trend-badge up">▲ +₹15</span></td>
+                <td><a href="https://wa.me/919876543210?text=Rate%20enquiry%20for%20Common%20Paddy" target="_blank" class="btn btn-outline-gold" style="padding:0.25rem 0.6rem; font-size:0.78rem;">Trade</a></td>
+              </tr>
+              <tr data-crop="soybean">
+                <td><strong>🌱 Soybean (सोयाबीन)</strong></td>
+                <td>Yellow Seed (Clean Mandi)</td>
+                <td>₹4,580</td>
+                <td>₹4,850</td>
+                <td><strong>₹4,710</strong></td>
+                <td><span class="trend-badge down">▼ -₹15</span></td>
+                <td><a href="https://wa.me/919876543210?text=Rate%20enquiry%20for%20Soybean" target="_blank" class="btn btn-outline-gold" style="padding:0.25rem 0.6rem; font-size:0.78rem;">Trade</a></td>
+              </tr>
+              <tr data-crop="mustard">
+                <td><strong>🌼 Mustard (सरसों)</strong></td>
+                <td>Bold Black (42% Oil Lab)</td>
+                <td>₹5,350</td>
+                <td>₹5,720</td>
+                <td><strong>₹5,540</strong></td>
+                <td><span class="trend-badge up">▲ +₹40</span></td>
+                <td><a href="https://wa.me/919876543210?text=Rate%20enquiry%20for%20Mustard" target="_blank" class="btn btn-outline-gold" style="padding:0.25rem 0.6rem; font-size:0.78rem;">Trade</a></td>
+              </tr>
+              <tr data-crop="chana">
+                <td><strong>🟤 Chana (चना / Gram)</strong></td>
+                <td>Desi Cleaned Mandi Lot</td>
+                <td>₹5,800</td>
+                <td>₹6,150</td>
+                <td><strong>₹5,960</strong></td>
+                <td><span class="trend-badge up">▲ +₹25</span></td>
+                <td><a href="https://wa.me/919876543210?text=Rate%20enquiry%20for%20Chana" target="_blank" class="btn btn-outline-gold" style="padding:0.25rem 0.6rem; font-size:0.78rem;">Trade</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       THE ULTIMATE GST FEATURE: MANDI GST SUITE
+       (Requested by User: "add GST feature")
+       ========================================== -->
+  <section class="section gst-section" id="gst-suite">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-pretitle">Commercial & Tax Compliance Suite</span>
+        <h2 class="section-title">Agro Mandi GST & Billing Suite</h2>
+        <p class="section-subtitle">
+          Designed specifically for grain merchants, commission agents, and millers. Calculate taxes with HSN exemption rules or generate full printable mandi proforma bills.
+        </p>
+      </div>
+
+      <div class="gst-container-box reveal">
+        <!-- Tab Navigation -->
+        <div class="gst-tabs-header">
+          <button class="gst-tab-btn active" data-tab="tab-gst-calc">
+            <span>🧮</span> Quick Agro GST Calculator
+          </button>
+          <button class="gst-tab-btn" data-tab="tab-gst-invoice">
+            <span>🧾</span> Mandi GST Proforma Bill Generator
+          </button>
+          <button class="gst-tab-btn" data-tab="tab-gst-hsn">
+            <span>📚</span> Agro HSN & Tax Code Guide
+          </button>
+        </div>
+
+        <!-- ================= TAB 1: CALCULATOR ================= -->
+        <div class="gst-tab-panel active" id="tab-gst-calc">
+          <div class="contact-grid" style="grid-template-columns: 1.15fr 0.85fr;">
+            <!-- Inputs -->
+            <div>
+              <h3 style="font-size: 1.25rem; margin-bottom: 1.25rem; color: #0c3b2e;">Calculate Agricultural GST</h3>
+              
+              <div class="form-grid-2">
+                <div class="form-group">
+                  <label class="form-label" for="calc-commodity">Agricultural Commodity / Service</label>
+                  <select id="calc-commodity" class="form-control">
+                    <option value="wheat">Wheat (गेहूं - HSN 1001)</option>
+                    <option value="maize">Maize (मक्का - HSN 1005)</option>
+                    <option value="paddy">Paddy / Rice (धान - HSN 1006)</option>
+                    <option value="soybean">Soybean (सोयाबीन - HSN 1201)</option>
+                    <option value="mustard">Mustard (सरसों - HSN 1207)</option>
+                    <option value="pulses">Pulses / Dal (HSN 0713)</option>
+                    <option value="commission_service">Commission Agent Service (SAC 9985)</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label" for="calc-packaging">Packaging Nature</label>
+                  <select id="calc-packaging" class="form-control">
+                    <option value="loose">Raw / Unbranded / Loose Mandi (0% Exempt)</option>
+                    <option value="branded">Branded / Pre-Packaged Registered (5% GST)</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-grid-3">
+                <div class="form-group">
+                  <label class="form-label" for="calc-amount">Base Value / Total (₹)</label>
+                  <input type="number" id="calc-amount" class="form-control" value="100000" min="0" step="100">
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label" for="calc-rate">GST Rate Applied (%)</label>
+                  <input type="number" id="calc-rate" class="form-control" value="0" readonly>
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label" for="calc-tx-type">Supply Type</label>
+                  <select id="calc-tx-type" class="form-control">
+                    <option value="intrastate">Intra-State (CGST + SGST)</option>
+                    <option value="interstate">Inter-State (IGST)</option>
+                  </select>
+                </div>
+              </div>
+
+              <div style="display: flex; align-items: center; gap: 0.6rem; margin-top: 1rem;">
+                <input type="checkbox" id="calc-inclusive" style="width: 18px; height: 18px; cursor: pointer;">
+                <label for="calc-inclusive" style="font-size: 0.9rem; font-weight: 600; cursor: pointer;">Amount is GST Inclusive</label>
+              </div>
+
+              <div style="margin-top: 1.5rem; background: #eaf5ef; border-left: 4px solid #10b981; padding: 0.85rem 1rem; border-radius: 4px; font-size: 0.85rem;">
+                <strong>💡 GST Exemption Note:</strong> <span id="calc-hsn-display">HSN 1001 (Wheat) - Raw/Unbranded Mandi Grain</span>
+              </div>
+            </div>
+
+            <!-- Tax Summary Box -->
+            <div>
+              <div class="calc-result-box">
+                <div class="calc-result-title">
+                  <span>Tax Computation</span>
+                  <span id="tax-status-badge" class="badge-exempt">100% Tax EXEMPT (0% GST)</span>
+                </div>
+
+                <div class="calc-row">
+                  <span>Net Taxable Base Amount:</span>
+                  <strong id="res-base-amount">₹1,00,000.00</strong>
+                </div>
+                <div class="calc-row">
+                  <span>CGST (Central Tax):</span>
+                  <span id="res-cgst">₹0.00 (0.0%)</span>
+                </div>
+                <div class="calc-row">
+                  <span>SGST (State Tax):</span>
+                  <span id="res-sgst">₹0.00 (0.0%)</span>
+                </div>
+                <div class="calc-row">
+                  <span>IGST (Integrated Tax):</span>
+                  <span id="res-igst">₹0.00 (0.0%)</span>
+                </div>
+                <div class="calc-row">
+                  <span>Total Tax Payable:</span>
+                  <strong id="res-total-tax">₹0.00</strong>
+                </div>
+                <div class="calc-row total-row">
+                  <span>Grand Total (Payable):</span>
+                  <span id="res-grand-total">₹1,00,000.00</span>
+                </div>
+              </div>
+
+              <p style="font-size: 0.78rem; color: #64748b; margin-top: 0.75rem; line-height: 1.4;">
+                *Applicable as per GST Council Notification No. 2/2017 & amendments for agricultural commodities. Consult your CA for specific state mandi cess rules.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ================= TAB 2: INVOICE GENERATOR ================= -->
+        <div class="gst-tab-panel" id="tab-gst-invoice">
+          <!-- Control Row -->
+          <div style="background: #f8faf8; border: 1px solid #e2ece5; border-radius: var(--radius-md); padding: 1.25rem; margin-bottom: 2rem;">
+            <h4 style="color: #0c3b2e; margin-bottom: 1rem;">Fill Details to Generate Mandi GST Bill</h4>
+            
+            <div class="form-grid-3">
+              <div class="form-group">
+                <label class="form-label" for="inv-input-buyer">Buyer / Trader / Miller Name</label>
+                <input type="text" id="inv-input-buyer" class="form-control" value="Shree Krishna Roller Flour Mills">
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="inv-input-gstin">Buyer GSTIN / ID</label>
+                <input type="text" id="inv-input-gstin" class="form-control" value="23AAAAA0000A1Z5">
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="inv-input-state">State of Supply</label>
+                <input type="text" id="inv-input-state" class="form-control" value="Madhya Pradesh (23)">
+              </div>
+            </div>
+
+            <div class="form-grid-4">
+              <div class="form-group">
+                <label class="form-label" for="inv-input-crop">Commodity</label>
+                <select id="inv-input-crop" class="form-control">
+                  <option value="wheat">Wheat (गेहूं - Sharbati)</option>
+                  <option value="maize">Maize (मक्का - Yellow)</option>
+                  <option value="paddy">Paddy (धान - 1509)</option>
+                  <option value="soybean">Soybean (सोयाबीन)</option>
+                  <option value="mustard">Mustard (सरसों 42%)</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="inv-input-bags">Bags (बोरी)</label>
+                <input type="number" id="inv-input-bags" class="form-control" value="100">
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="inv-input-weight">Net Weight (Quintals)</label>
+                <input type="number" id="inv-input-weight" class="form-control" value="50.00" step="0.01">
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="inv-input-rate">Rate per Qtl (₹)</label>
+                <input type="number" id="inv-input-rate" class="form-control" value="2450">
+              </div>
+            </div>
+
+            <div class="form-grid-4">
+              <div class="form-group">
+                <label class="form-label" for="inv-input-mandi-tax">Mandi Tax / Cess (%)</label>
+                <input type="number" id="inv-input-mandi-tax" class="form-control" value="1.5" step="0.1">
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="inv-input-hammali">Hammali / Labor (₹)</label>
+                <input type="number" id="inv-input-hammali" class="form-control" value="650">
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="inv-input-tol">Kanta / Weighbridge (₹)</label>
+                <input type="number" id="inv-input-tol" class="form-control" value="150">
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="inv-input-gst-rate">GST Rate (%)</label>
+                <select id="inv-input-gst-rate" class="form-control">
+                  <option value="0">0% (Unbranded Grain Exempt)</option>
+                  <option value="5">5% (Branded Commodity)</option>
+                  <option value="18">18% (Service Charges)</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group" style="max-width: 300px;">
+              <label class="form-label" for="inv-input-supply">Tax Category</label>
+              <select id="inv-input-supply" class="form-control">
+                <option value="intrastate">Intra-State (CGST + SGST)</option>
+                <option value="interstate">Inter-State (IGST)</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Actions toolbar -->
+          <div class="inv-actions-bar" style="display:flex; justify-content:flex-end; gap:1rem; margin-bottom: 1.25rem;">
+            <button class="btn btn-primary" id="btn-print-invoice">
+              <span>🖨️</span> Print / Save PDF Invoice
+            </button>
+            <button class="btn btn-gold" id="btn-whatsapp-invoice">
+              <span>📲</span> Share Invoice to WhatsApp
+            </button>
+          </div>
+
+          <!-- Printable Proforma Invoice Container -->
+          <div class="invoice-wrapper" id="invoice-to-print">
+            <div class="invoice-top-shreeji">
+              <div class="inv-ganesh">|| श्री गणेशाय नमः ||</div>
+              <h2 class="inv-title">SHREEJI AGRO ENTERPRISES</h2>
+              <div class="inv-subtitle">GRAIN MERCHANT & COMMISSION AGENT</div>
+              <div style="font-size: 0.82rem; color: #475569; margin-top: 0.25rem;">
+                Krishi Upaj Mandi Samiti, Yard No. 3, Near Gate No. 2 • Phone: +91 98765 43210
+              </div>
+              <div style="display:inline-block; margin-top:0.5rem; background: #ecfdf5; border: 1px solid #a7f3d0; color:#065f46; padding:0.2rem 0.8rem; border-radius: var(--radius-full); font-weight:700; font-size:0.75rem;">
+                GSTIN: 23AABCS1234F1ZQ (Mandi Trader) • HSN Chapter 10 & 12
+              </div>
+            </div>
+
+            <!-- Metadata Row -->
+            <div class="inv-meta-row">
+              <div>
+                <strong style="color: #0c3b2e; font-size: 0.85rem; text-transform: uppercase;">Billed To (Buyer):</strong>
+                <div style="font-size: 1.05rem; font-weight: 800; color: #1e293b; margin: 0.2rem 0;" id="inv-disp-buyer">Shree Krishna Roller Flour Mills</div>
+                <div>GSTIN: <span id="inv-disp-gstin">23AAAAA0000A1Z5</span></div>
+                <div>State of Supply: <span id="inv-disp-state">Madhya Pradesh (23)</span></div>
+              </div>
+              <div style="text-align: right;">
+                <div><strong>Invoice No:</strong> <span style="font-family: monospace; font-weight: 700; color:#b45309;">SAE-2026/894</span></div>
+                <div><strong>Date:</strong> <span id="inv-disp-date">16-Oct-2026</span></div>
+                <div><strong>Payment Terms:</strong> Spot / Bank Transfer (RTGS)</div>
+                <div><strong>Vehicle / Gate Pass:</strong> MP-09-GA-4521</div>
+              </div>
+            </div>
+
+            <!-- Table of Items -->
+            <div class="inv-table-wrap">
+              <table class="inv-table">
+                <thead>
+                  <tr>
+                    <th>Sr.</th>
+                    <th>Commodity & Description</th>
+                    <th>Packaging</th>
+                    <th>Net Weight</th>
+                    <th>Rate / Qtl</th>
+                    <th style="text-align: right;">Taxable Value (₹)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>
+                      <strong id="inv-disp-crop">Wheat (गेहूं - Sharbati)</strong>
+                      <div style="font-size: 0.75rem; color:#64748b;">Mandi Standard Lot, Cleaned & Graded</div>
+                    </td>
+                    <td id="inv-disp-bags">100 Bags</td>
+                    <td id="inv-disp-weight">50.00 Qtl</td>
+                    <td id="inv-disp-rate">₹2,450.00</td>
+                    <td style="text-align: right;"><strong id="inv-disp-crop-amount">₹1,22,500.00</strong></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <!-- Summary Breakdown -->
+            <div class="inv-summary-grid">
+              <div>
+                <div class="inv-words-box">
+                  <div class="inv-words-title">Total Amount in Words:</div>
+                  <div class="inv-words-text" id="inv-disp-words">Rupees One Lakh Twenty-Five Thousand One Hundred Thirty-Eight Only</div>
+                </div>
+
+                <div style="margin-top: 1.25rem; font-size: 0.78rem; color: #475569; line-height: 1.5;">
+                  <strong>Declaration & Terms:</strong><br>
+                  1. Goods once inspected and weighed at mandi premises cannot be returned.<br>
+                  2. All disputes subject to local Mandi Samiti jurisdiction.<br>
+                  3. Behtar Daam • Vishwasniya Vyapar • Aapke Saath Hamesha.
+                </div>
+              </div>
+
+              <div class="inv-totals-box">
+                <div class="inv-total-row">
+                  <span>Mandi Shulk / Cess:</span>
+                  <span id="inv-disp-mandi-tax">₹1,837.50 (1.5%)</span>
+                </div>
+                <div class="inv-total-row">
+                  <span>Hammali & Weighbridge:</span>
+                  <span id="inv-disp-labor">₹800.00</span>
+                </div>
+                <div class="inv-total-row">
+                  <span>Taxable Subtotal:</span>
+                  <strong id="inv-disp-subtotal">₹1,25,137.50</strong>
+                </div>
+                <div class="inv-total-row" id="inv-row-cgst">
+                  <span>CGST:</span>
+                  <span id="inv-disp-cgst">₹0.00 (0%)</span>
+                </div>
+                <div class="inv-total-row" id="inv-row-sgst">
+                  <span>SGST:</span>
+                  <span id="inv-disp-sgst">₹0.00 (0%)</span>
+                </div>
+                <div class="inv-total-row" id="inv-row-igst" style="display: none;">
+                  <span>IGST:</span>
+                  <span id="inv-disp-igst">₹0.00 (0%)</span>
+                </div>
+                <div class="inv-total-row final">
+                  <span>Grand Total (₹):</span>
+                  <span id="inv-disp-grand-total">₹1,25,138.00</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Signatures -->
+            <div class="inv-footer-signatures">
+              <div class="signature-block">
+                <div class="signature-line"></div>
+                <div>Customer / Farmer's Signature</div>
+              </div>
+              <div class="signature-block">
+                <div class="signature-line"></div>
+                <div>For <strong>Shreeji Agro Enterprises</strong><br>(Authorized Signatory)</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ================= TAB 3: HSN GUIDE ================= -->
+        <div class="gst-tab-panel" id="tab-gst-hsn">
+          <h3 style="font-size: 1.25rem; margin-bottom: 1rem; color: #0c3b2e;">Agro Commodities Official HSN & GST Tariff</h3>
+          <p style="color: #64748b; font-size: 0.9rem; margin-bottom: 1.5rem;">
+            Official tax applicability under GST Council rulings for food grains and oilseeds traded in Indian Agricultural Produce Market Committees (APMC Mandis).
+          </p>
+
+          <div class="rates-table-wrap">
+            <table class="mandi-rates-table">
+              <thead>
+                <tr>
+                  <th>Commodity / Product</th>
+                  <th>HSN Code</th>
+                  <th>Loose / Mandi Rate</th>
+                  <th>Pre-Packaged / Branded</th>
+                  <th>Statutory Tax Note</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Wheat and Meslin (गेहूं)</strong></td>
+                  <td><code>1001</code></td>
+                  <td><span class="badge-exempt">NIL (0%)</span></td>
+                  <td><strong>5% GST</strong></td>
+                  <td>Exempt under Notification 2/2017-CT(Rate)</td>
+                </tr>
+                <tr>
+                  <td><strong>Maize / Corn (मक्का)</strong></td>
+                  <td><code>1005</code></td>
+                  <td><span class="badge-exempt">NIL (0%)</span></td>
+                  <td><strong>5% GST</strong></td>
+                  <td>Feed quality or food grain, unbranded loose</td>
+                </tr>
+                <tr>
+                  <td><strong>Paddy / Rice (धान / चावल)</strong></td>
+                  <td><code>1006</code></td>
+                  <td><span class="badge-exempt">NIL (0%)</span></td>
+                  <td><strong>5% GST</strong></td>
+                  <td>Unhusked paddy is 100% exempt from GST</td>
+                </tr>
+                <tr>
+                  <td><strong>Soya Beans (सोयाबीन)</strong></td>
+                  <td><code>1201</code></td>
+                  <td><span class="badge-exempt">NIL (0%)</span></td>
+                  <td><strong>5% GST</strong></td>
+                  <td>Whether or not broken, for crushing or sowing</td>
+                </tr>
+                <tr>
+                  <td><strong>Mustard / Rape Seeds (सरसों)</strong></td>
+                  <td><code>1207</code></td>
+                  <td><span class="badge-exempt">NIL (0%)</span></td>
+                  <td><strong>5% GST</strong></td>
+                  <td>Raw agricultural seed category</td>
+                </tr>
+                <tr>
+                  <td><strong>Agricultural Mandi Commission Agent</strong></td>
+                  <td><code>SAC 9985</code></td>
+                  <td><strong>18% GST</strong></td>
+                  <td><strong>18% GST</strong></td>
+                  <td>Services by commission agent in relation to wholesale</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       CONTACT & TRADE ENQUIRY FORM
+       ========================================== -->
+  <section class="section section-light" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-pretitle">Connect With Mandi Desk</span>
+        <h2 class="section-title">Trade With Confidence Today</h2>
+        <p class="section-subtitle">
+          Whether you are a farmer looking to fetch the highest mandi rate or a miller seeking consistent truckload supplies, our desk is ready.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Mandi Contact Details -->
+        <div class="contact-info-card reveal reveal-left">
+          <h3 style="font-size: 1.5rem; color: #ffffff; margin-bottom: 0.5rem;">Shreeji Agro Enterprises</h3>
+          <p style="color: #a7f3d0; font-size: 0.95rem;">
+            Grain Merchant & Commission Agent • Mandi Gate No. 2
+          </p>
+
+          <div class="contact-detail-list">
+            <div class="contact-item">
+              <div class="contact-icon">📍</div>
+              <div>
+                <div class="contact-item-title">Mandi Location</div>
+                <div class="contact-item-val">Shop No. 14, Commercial Yard, Krishi Upaj Mandi, MP</div>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">📞</div>
+              <div>
+                <div class="contact-item-title">Direct Calling / Trading Desk</div>
+                <div class="contact-item-val">+91 98765 43210 / +91 91234 56789</div>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">💬</div>
+              <div>
+                <div class="contact-item-title">WhatsApp Desk</div>
+                <div class="contact-item-val">+91 98765 43210 (24x7 Mandi Updates)</div>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">⏰</div>
+              <div>
+                <div class="contact-item-title">Trading & Weighing Hours</div>
+                <div class="contact-item-val">Mon - Sat: 8:00 AM - 7:00 PM (Sunday Closed)</div>
+              </div>
+            </div>
+          </div>
+
+          <div style="background: rgba(255, 255, 255, 0.08); padding: 1.25rem; border-radius: var(--radius-md); border: 1px solid rgba(255, 255, 255, 0.15);">
+            <div style="font-weight: 700; color: #fbbf24; margin-bottom: 0.25rem;">✨ Our Assurance:</div>
+            <div style="font-size: 0.85rem; color: #e2ece5; line-height: 1.5;">
+              Spot payment by Cash or Immediate NEFT/RTGS Transfer. 100% Electronic Kanta Weight Slip guaranteed.
+            </div>
+          </div>
+        </div>
+
+        <!-- Interactive Enquiry Form -->
+        <div class="form-card reveal reveal-right">
+          <h3 style="font-size: 1.4rem; color: #0c3b2e; margin-bottom: 0.5rem;">Send Direct Trade Enquiry</h3>
+          <p style="font-size: 0.88rem; color: #64748b; margin-bottom: 1.5rem;">
+            Fill in your harvest or purchase requirement to connect instantly with our trading manager via WhatsApp.
+          </p>
+
+          <form id="trade-enquiry-form">
+            <div class="form-grid-2">
+              <div class="form-group">
+                <label class="form-label" for="enq-name">Your Full Name / Firm</label>
+                <input type="text" id="enq-name" class="form-control" placeholder="e.g. Ramesh Patel" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="enq-phone">Mobile Number</label>
+                <input type="tel" id="enq-phone" class="form-control" placeholder="e.g. 98XXXXXXXX" required>
+              </div>
+            </div>
+
+            <div class="form-grid-2">
+              <div class="form-group">
+                <label class="form-label" for="enq-role">I Am A</label>
+                <select id="enq-role" class="form-control">
+                  <option value="Farmer / Grower (किसान)">Farmer / Grower (किसान - Want to Sell)</option>
+                  <option value="Flour / Oil Miller (मिलर)">Flour / Oil Miller (Want to Buy)</option>
+                  <option value="Wholesale Trader (व्यापारी)">Wholesale Trader (मंडी व्यापारी)</option>
+                  <option value="Feed Manufacturer">Feed Manufacturer</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="enq-crop">Commodity of Interest</label>
+                <select id="enq-crop" class="form-control">
+                  <option value="Maize (मक्का)">Maize (मक्का)</option>
+                  <option value="Wheat (गेहूं)">Wheat (गेहूं)</option>
+                  <option value="Paddy (धान)">Paddy (धान)</option>
+                  <option value="Soybean (सोयाबीन)">Soybean (सोयाबीन)</option>
+                  <option value="Mustard (सरसों)">Mustard (सरसों)</option>
+                  <option value="Multiple Commodities">Multiple Commodities</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group" style="margin-bottom: 1.25rem;">
+              <label class="form-label" for="enq-quantity">Estimated Quantity (Tons or Quintals)</label>
+              <input type="text" id="enq-quantity" class="form-control" placeholder="e.g. 100 Quintals / 2 Truck Loads" required>
+            </div>
+
+            <div class="form-group" style="margin-bottom: 1.5rem;">
+              <label class="form-label" for="enq-message">Additional Notes or Mandi Questions</label>
+              <textarea id="enq-message" class="form-control" rows="3" placeholder="Tell us about the moisture level, location or delivery requirements..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%; padding: 0.85rem;">
+              <span>💬</span> Submit Enquiry via WhatsApp
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       FOOTER
+       ========================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand-title">Shreeji <span>Agro Enterprises</span></div>
+          <p class="footer-desc">
+            Authorized Grain Merchant & Commission Agent. Operating with pride on the values of <em>Behtar Daam, Vishwasniya Vyapar, Aapke Saath Hamesha</em>.
+          </p>
+          <div style="color: #fbbf24; font-weight: 700; font-size: 0.9rem;">
+            🌾 किसान की मेहनत, हमारा सम्मान
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Primary Crops</h4>
+          <ul class="footer-links">
+            <li><a href="#commodities">🌽 Maize (मक्का)</a></li>
+            <li><a href="#commodities">🌾 Paddy / Rice (धान)</a></li>
+            <li><a href="#commodities">🌾 Wheat (गेहूं - शरबती)</a></li>
+            <li><a href="#commodities">🌱 Soybean (सोयाबीन)</a></li>
+            <li><a href="#commodities">🌼 Mustard (सरसों)</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Quick Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Our Dealings</a></li>
+            <li><a href="#mandi-bhav">Today's Mandi Bhav</a></li>
+            <li><a href="#gst-suite">Mandi GST Calculator</a></li>
+            <li><a href="#gst-suite">Proforma Invoice Tool</a></li>
+            <li><a href="#contact">Contact & Location</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Business Registration</h4>
+          <p style="font-size: 0.85rem; color: #94a3b8; line-height: 1.6; margin-bottom: 1rem;">
+            Licensed Mandi Trader under APMC Regulations.<br>
+            GSTIN: 23AABCS1234F1ZQ<br>
+            Registered Grain Merchant
+          </p>
+          <button class="btn btn-outline-gold btn-open-poster" style="font-size: 0.82rem; padding: 0.4rem 0.8rem;">
+            <span>📜</span> View Official Poster
+          </button>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 Shreeji Agro Enterprises. All rights reserved.
+        </div>
+        <div>
+          Designed for Excellence in Agricultural Trading
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================
+       MODAL: CROP SPECIFICATIONS LIGHTBOX
+       ========================================== -->
+  <div class="modal-overlay" id="crop-detail-modal">
+    <div class="modal-dialog">
+      <button class="modal-close-btn" id="close-crop-modal" aria-label="Close modal">✕</button>
+      <div class="modal-body">
+        <h3 id="modal-crop-title" style="font-size: 1.6rem; color: #0c3b2e; margin-bottom: 0.25rem;">Crop Details</h3>
+        <p id="modal-crop-subtitle" style="color: #d97706; font-weight: 700; font-size: 0.95rem; margin-bottom: 1rem;">Grade Specifications</p>
+
+        <div style="height: 220px; border-radius: var(--radius-md); overflow: hidden; margin-bottom: 1.25rem; background: #e2ece5;">
+          <img id="modal-crop-img" src="" alt="Crop Preview" style="width: 100%; height: 100%; object-fit: cover;">
+        </div>
+
+        <p id="modal-crop-desc" style="font-size: 0.95rem; color: #475569; margin-bottom: 1.5rem; line-height: 1.6;"></p>
+
+        <div class="calc-result-box" style="padding: 1.25rem; margin-bottom: 1.5rem;">
+          <div class="calc-row">
+            <span>Moisture Tolerance:</span>
+            <strong id="modal-crop-moisture" style="color:#fbbf24;"></strong>
+          </div>
+          <div class="calc-row">
+            <span>Foreign Matter Limit:</span>
+            <strong id="modal-crop-impurity" style="color:#fbbf24;"></strong>
+          </div>
+          <div class="calc-row">
+            <span>Indicative Mandi Range:</span>
+            <strong id="modal-crop-rate" style="color:#4ade80;"></strong>
+          </div>
+          <div class="calc-row">
+            <span>GST & Tax Treatment:</span>
+            <strong id="modal-crop-tax" style="color:#fef08a;"></strong>
+          </div>
+        </div>
+
+        <div style="display:flex; gap:1rem;">
+          <a id="modal-crop-whatsapp" href="#" target="_blank" class="btn btn-primary" style="flex: 1;">
+            <span>💬</span> Get Live Mandi Quote on WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================
+       MODAL: FULL POSTER LIGHTBOX
+       ========================================== -->
+  <div class="modal-overlay" id="poster-lightbox-modal">
+    <div class="modal-dialog" style="max-width: 580px; padding: 0; background: transparent; box-shadow: none;">
+      <button class="modal-close-btn" id="close-poster-modal" style="background: #ffffff; top: 10px; right: 10px;" aria-label="Close poster">✕</button>
+      <div style="background: #ffffff; padding: 0.5rem; border-radius: var(--radius-lg); overflow: hidden;">
+        <img src="assets/images/poster.jpg" alt="Official Business Poster" style="width: 100%; height: auto; border-radius: var(--radius-md);">
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================
+       FLOATING ACTIONS (WhatsApp & Call & Top)
+       ========================================== -->
+  <div class="floating-actions">
+    <button class="back-to-top" aria-label="Back to top" title="Scroll to top">
+      ▲
+    </button>
+    <a href="tel:+919876543210" class="float-btn float-call" aria-label="Call Shreeji Agro" title="Call Us Directly">
+      📞
+    </a>
+    <a href="https://wa.me/919876543210?text=Hello%20Shreeji%20Agro%20Enterprises,%20I%20want%20to%20know%20more%20about%20today's%20mandi%20rates" target="_blank" class="float-btn float-whatsapp" aria-label="Chat on WhatsApp" title="WhatsApp Us">
+      💬
+    </a>
+  </div>
+
+  <!-- Main JavaScript File -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
